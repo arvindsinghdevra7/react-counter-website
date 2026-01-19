@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a7bff, #7f5cc4);
+}
+
+/* main wrapper */
+body > div {
+  background: #ffffff;
+  padding: 45px;
+  border-radius: 26px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* number box */
+h1 {
+  width: 200px;
+  height: 120px;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
+  font-weight: 700;
+  color: #333;
+  background: linear-gradient(135deg, #ffe2c7, #ffc2a1);
+  border-radius: 18px;
+}
+
+/* buttons common style */
+button {
+  padding: 12px 22px;
+  margin: 8px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  color: #fff;
+}
+
+/* Increase */
+button:nth-of-type(1) {
+  background: #4caf50;
+}
+
+/* Decrease */
+button:nth-of-type(2) {
+  background: #f44336;
+}
+
+/* Jump by 5 */
+button:nth-of-type(3) {
+  background: #2196f3;
+}
+
+/* Print Arvind */
+button:nth-of-type(4) {
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+}
+
+/* hover effect */
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* click effect */
+button:active {
+  transform: scale(0.95);
+}
